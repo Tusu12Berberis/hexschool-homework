@@ -1,0 +1,225 @@
+/* 字體引用 */
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 顏色 */
+:root {
+    --color-Neutral-900: #212529;
+    --color-Neutral-600: #6C757D;
+    --color-Neutral-500: #ADB5BD;
+    --color-Primary-400: #57A203;
+    --color-Primary-100: #F5FEE7;
+    --color-Neutral-300: #DEE2E6;
+    --color-Neutral-White: #FFFFFF;
+    --color-Neutral-100: #F8F9FA;
+}
+
+
+/* 全域樣式 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+
+}
+
+a {
+    text-underline-offset: 4px;
+    color: inherit;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+    font-weight: 400;
+}
+
+/* 通用設定 */
+
+/* 字型字體 */
+.TW-Headings-H1 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+}
+
+.TW-Headings-H3 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 28px;
+}
+
+.TW-Headings-H4 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 24px;
+}
+
+.TW-Headings-H5 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.TW-Label-md {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.TW-Paragraph-sm {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pb-48 {
+    padding-bottom: 48px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.px-32 {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.py-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.pl-12 {
+    padding-left: 12px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+}
+
+.pr-8 {
+    padding-right: 8px;
+}
+
+.border {
+    border-bottom: 1px solid var(--color-Neutral-300);
+}
+
+.l-border {
+    border-left: 1px solid var(--color-Neutral-900);
+}
+
+.l-border-3 {
+    border-left: 3px solid var(--color-Neutral-300);
+}
+
+h3 {
+    color: var(--color-Primary-400);
+}
+
+
+
+
+/* 頁首 */
+.hero h1 {
+    color: var(--color-Neutral-White);
+    text-align: center;
+    padding-top: 152px;
+    padding-bottom: 152px;
+}
+
+.hero {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* BlockQuote */
+
+.quote {
+    text-align: center;
+    padding: 32px;
+    background-color: var(--color-Primary-100);
+    border-radius: 12px;
+}
+
+.about {
+    max-width: 1076px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about img {
+    width: 100%;
+}
+
+/* history */
+
+.history-list {
+    list-style-type: disc;
+    margin-left: 24px;
+}
+
+.brand-story {
+    color: var(--color-Primary-400);
+}
+
+.brand-story a {
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.bi {
+    vertical-align: bottom;
+}
+
+.footer {
+    background-color: var(--color-Neutral-100);
+    text-align: center;
+    color: var(--color-Neutral-600);
+}

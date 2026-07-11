@@ -49,6 +49,12 @@ body {
     font-size: 40px;
 }
 
+TW-Headings-H2 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 32px;
+}
+
 .TW-Headings-H3 {
     font-weight: 700;
     line-height: 1.2;

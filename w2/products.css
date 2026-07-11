@@ -1,0 +1,7 @@
+.product-nav .active {
+    color: var(--color-Primary-400);
+}
+
+.page-item {
+    font-weight: 400;
+}

@@ -26,7 +26,7 @@
             <a href="#" class="ml-auto p-12"><i class="bi bi-person"></i></a>
         </nav>
     </header>
-    <main class="container py-32">
+    <main class="container py-32 mb-48">
         <!-- 麵包屑 -->
         <nav class="mb-24">
             <ol class="d-flex">
@@ -34,7 +34,7 @@
                     <a class="breadcrumb-link" href="index.html">首頁</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a href="">所有商品</a>
+                    <a href="#">所有商品</a>
                 </li>
             </ol>
         </nav>
@@ -159,8 +159,32 @@
                 </div>
                 <!-- 分頁page -->
                 <ul class="d-flex justify-center align-center">
-                    <li class="mr-12 page-item"><button type="button" class="btn">
+                    <li class="mr-12 page-item"><button type="button" class="btn" disabled>
                             <i class="bi bi-chevron-left"></i>
+                        </button>
+                    </li>
+                    <li class="mr-8 page-item"><button type="button" class="btn active">
+                            1
+                        </button>
+                    </li>
+                    <li class="mr-8 page-item"><button type="button" class="btn">
+                            2
+                        </button>
+                    </li>
+                    <li class="mr-8 page-item"><button type="button" class="btn">
+                            3
+                        </button>
+                    </li>
+                    <li class="mr-8 page-item"><button type="button" class="btn">
+                            ...
+                        </button>
+                    </li>
+                    <li class="page-item"><button type="button" class="btn">
+                            10
+                        </button>
+                    </li>
+                    <li class="ml-12 page-item"><button type="button" class="btn">
+                            <i class="bi bi-chevron-right"></i>
                         </button>
                     </li>
                 </ul>
@@ -168,8 +192,26 @@
             </div>
         </div>
     </main>
-
-
+    <div class="d-flex justify-center align-center bg-200 py-24">
+        <p class="TW-Headings-H4 mr-24">加入會員取得 9 折優惠</p>
+        <button type="button" class="btn btn-duck">馬上註冊</button>
+    </div>
+    <footer class="container mt-64">
+        <nav class="d-flex align-center mb-24">
+            <a href="index.html"><img
+                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/73cf206013997d2173d20441794095af8b1ee3b9/2025-week1/logo.svg"
+                    alt="logo">
+            </a>
+            <ul class="d-flex align-center ml-auto">
+                <li class=" mr-40"><a class="py-12 d-b" href="products.html">商品列表</a></li>
+                <li><a class="py-12 d-b" href=" #">品牌故事</a></li>
+            </ul>
+        </nav>
+        <div class="text-conter mb-64">
+            <p class="TW-Paragraph-sm mb-4 pt-32">Copyright ©2025 URBNSTYLE</p>
+            <p class="TW-Paragraph-sm">All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>

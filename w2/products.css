@@ -2,6 +2,14 @@
     color: var(--color-Primary-400);
 }
 
-.page-item {
+
+.page-item .btn {
+    padding: 8px 15px;
+    border-radius: 0;
     font-weight: 400;
+}
+
+.page-item .active {
+    background-color: var(--color-Primary-300);
+    font-weight: 500;
 }

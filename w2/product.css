@@ -1,0 +1,31 @@
+/* 產品卡片 */
+.product-row {
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.product-col {
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100% / 12 * 6);
+}
+
+.price-400 {
+    color: var(--color-Primary-400);
+}
+
+.price-500 {
+    color: var(--color-Neutral-500);
+    text-decoration: str;
+}
+
+.product-color {
+    width: 64px;
+    text-align: center;
+    color: var(--color-Neutral-600);
+}
+
+.btn-size {
+    border: solid 1px var(--color-Neutral-300);
+    width: 160px;
+}

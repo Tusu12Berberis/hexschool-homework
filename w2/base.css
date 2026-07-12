@@ -50,6 +50,12 @@ body {
     font-size: 40px;
 }
 
+.TW-Headings-H2 {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 32px;
+}
+
 .TW-Headings-H3 {
     font-weight: 700;
     line-height: 1.2;
@@ -111,6 +117,10 @@ body {
 
 .align-center {
     align-items: center;
+}
+
+.text-conter {
+    text-align: center;
 }
 
 /* 格線樣式 */
@@ -195,6 +205,10 @@ body {
     margin-left: 48px;
 }
 
+.ml-12 {
+    margin-left: 12px;
+}
+
 .mt-64 {
     margin-top: 64px;
 }
@@ -205,6 +219,10 @@ body {
 
 .mb-48 {
     margin-bottom: 48px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
 }
 
 .mb-24 {
@@ -219,6 +237,10 @@ body {
     margin-bottom: 12px;
 }
 
+.mb-8 {
+    margin-bottom: 8px;
+}
+
 .mb-4 {
     margin-bottom: 4px;
 }
@@ -229,6 +251,10 @@ body {
 
 .mr-40 {
     margin-right: 40px;
+}
+
+.mr-24 {
+    margin-right: 24px;
 }
 
 .mr-12 {
@@ -276,6 +302,12 @@ body {
     padding-bottom: 32px;
 }
 
+.py-24 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
 .py-16 {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -307,7 +339,16 @@ body {
     padding: 12px;
 }
 
-/* 麵包屑的通用樣式 */
+.gap-8 {
+    gap: 8px;
+}
+
+/* 元件區域 */
+
+.bi {
+
+    vertical-align: bottom;
+}
 
 .breadcrumb-item+.breadcrumb-item::before {
     content: "/";
@@ -331,4 +372,13 @@ body {
     cursor: pointer;
     border: none;
     background-color: transparent;
+}
+
+.btn-duck {
+    background-color: var(--color-Neutral-900);
+    color: var(--color-Neutral-White);
+}
+
+.bg-200 {
+    background-color: var(--color-Primary-200);
 }

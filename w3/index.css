@@ -1,84 +1,9 @@
 /* 品牌故事-設定 */
 
-a {
-    text-underline-offset: 4px;
-    color: inherit;
-}
 
-body {
-    font-family: "Noto Sans TC", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
-    color: #212529;
-    font-weight: 400;
-}
-
-.container {
+.container-story {
     max-width: 856px;
     margin: 0 auto;
-}
-
-.mt-64 {
-    margin-top: 64px;
-}
-
-.mb-64 {
-    margin-bottom: 64px;
-}
-
-.mb-48 {
-    margin-bottom: 48px;
-}
-
-.mb-24 {
-    margin-bottom: 24px;
-}
-
-.mb-16 {
-    margin-bottom: 16px;
-}
-
-.mb-12 {
-    margin-bottom: 12px;
-}
-
-.mb-4 {
-    margin-bottom: 4px;
-}
-
-.pt-32 {
-    padding-top: 32px;
-}
-
-.pb-48 {
-    padding-bottom: 48px;
-}
-
-.pb-32 {
-    padding-bottom: 32px;
-}
-
-.px-32 {
-    padding-left: 32px;
-    padding-right: 32px;
-}
-
-.py-64 {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-.pl-12 {
-    padding-left: 12px;
-}
-
-.pl-8 {
-    padding-left: 8px;
-}
-
-.pr-8 {
-    padding-right: 8px;
 }
 
 .border {
@@ -92,12 +17,6 @@ body {
 .l-border-3 {
     border-left: 3px solid var(--color-Neutral-300);
 }
-
-h3 {
-    color: var(--color-Primary-400);
-}
-
-
 
 
 /* 頁首 */
@@ -115,6 +34,17 @@ h3 {
     background-size: cover;
 }
 
+@media(max-width:767px) {
+    .hero {
+        background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week3-4/hero-sm.png);
+    }
+
+    .hero h1 {
+        padding-top: 87px;
+        padding-bottom: 87px;
+    }
+}
+
 /* BlockQuote */
 
 .quote {
@@ -122,6 +52,13 @@ h3 {
     padding: 32px;
     background-color: var(--color-Primary-100);
     border-radius: 12px;
+}
+
+@media(max-width:767px) {
+    .quote {
+        padding: 24px;
+        text-align: start;
+    }
 }
 
 .about {
@@ -149,14 +86,4 @@ h3 {
     display: inline-block;
     padding-top: 8px;
     padding-bottom: 12px;
-}
-
-.bi {
-    vertical-align: bottom;
-}
-
-.footer {
-    background-color: var(--color-Neutral-100);
-    text-align: center;
-    color: var(--color-Neutral-600);
 }

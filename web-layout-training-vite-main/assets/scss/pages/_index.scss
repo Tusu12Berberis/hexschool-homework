@@ -1,0 +1,89 @@
+/* 品牌故事-設定 */
+
+
+.container-story {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.border {
+  border-bottom: 1px solid var(--color-Neutral-300);
+}
+
+.l-border {
+  border-left: 1px solid var(--color-Neutral-900);
+}
+
+.l-border-3 {
+  border-left: 3px solid var(--color-Neutral-300);
+}
+
+
+/* 頁首 */
+.hero h1 {
+  color: var(--color-Neutral-White);
+  text-align: center;
+  padding-top: 152px;
+  padding-bottom: 152px;
+}
+
+.hero {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media(max-width:767px) {
+  .hero {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week3-4/hero-sm.png);
+  }
+
+  .hero h1 {
+    padding-top: 87px;
+    padding-bottom: 87px;
+  }
+}
+
+/* BlockQuote */
+
+.quote {
+  text-align: center;
+  padding: 32px;
+  background-color: var(--color-Primary-100);
+  border-radius: 12px;
+}
+
+@media(max-width:767px) {
+  .quote {
+    padding: 24px;
+    text-align: start;
+  }
+}
+
+.about {
+  max-width: 1076px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about img {
+  width: 100%;
+}
+
+/* history */
+
+.history-list {
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.brand-story {
+  color: var(--color-Primary-400);
+}
+
+.brand-story a {
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}

@@ -1,0 +1,28 @@
+/* 所有按鈕共用的骨架 */
+.btn {
+    border-radius: 4px;
+    padding: 12px 24px;
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+@media(max-width:576px) {
+    .btn {
+        padding: 8px 16px;
+    }
+
+}
+
+/* 深色按鈕外觀 */
+.btn-dark {
+    background-color: var(--color-Neutral-900);
+    color: var(--color-Neutral-White);
+}
+
+/* 淺色按鈕外觀 */
+.btn-light {
+    color: var(--color-Neutral-900);
+    border: solid 1px var(--color-Neutral-900);
+}

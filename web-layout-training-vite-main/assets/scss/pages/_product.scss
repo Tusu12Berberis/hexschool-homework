@@ -1,0 +1,78 @@
+/* 產品卡片 */
+.product-row {
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.product-col {
+    padding-right: 4px;
+    padding-left: 4px;
+    width: calc(100% / 12 * 6);
+}
+
+.price-400 {
+    color: var(--color-Primary-400);
+}
+
+.price-500 {
+    color: var(--color-Neutral-500);
+    text-decoration: line-through;
+}
+
+.product-color {
+    width: 64px;
+    text-align: center;
+    color: var(--color-Neutral-600);
+}
+
+.btn-size {
+    border: solid 1px var(--color-Neutral-300);
+    width: 160px;
+    padding: 11px 23px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* btn 的高度一直會跑到快50px，Ai是說
+stroke 是 Inner（畫在 48px 裡面），CSS 的 border 卻長在 padding 外面。所以遇到「有邊框的元件」，換算規則是：
+CSS 的 padding = Figma 的 padding − border 寬度
+我在檢查工具，需要把框線取消才是設計稿的高度48px */
+
+.btn-size.active,
+.btn-size:not(:disabled):hover {
+    border-color: var(--color-Neutral-900);
+}
+
+.btn-size:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.text-red {
+    color: var(--color-Functional-Danger-300);
+    margin-top: 8px;
+}
+
+.Product-action {
+    gap: 8px;
+}
+
+.Product-action .btn {
+    width: 50%;
+    padding: 11px 24px;
+}
+
+.Product-action .bi {
+    margin-right: 8px;
+    text-align: center;
+}
+
+.product-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-Neutral-600);
+}
+
+.product-info {
+    border-bottom: solid 1px var(--color-Neutral-300);
+}

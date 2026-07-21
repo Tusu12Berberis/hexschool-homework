@@ -1,0 +1,18 @@
+.bi {
+    vertical-align: bottom;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+    padding: 0 12px;
+    color: var(--color-Neutral-300);
+    font-weight: 700;
+}
+
+.breadcrumb-item {
+    display: flex;
+}
+
+.breadcrumb-link {
+    color: var(--color-Neutral-600);
+}
